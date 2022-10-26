@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pomodoro Timer">
+    
+    <title>Pomodoro Focus Timer</title>
+
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="timer">
+            <span class="minutes">15</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+        <div id="controls">
+            <button class="play">
+                <img src="assets/play.svg" alt="play button svg">
+            </button>
+            <button class="pause hide">
+                <img src="assets/pause.svg" alt="pause button svg">
+            </button>
+            <button class="stop hide">
+                <img src="assets/stop.svg" alt="stop button svg">
+            </button>
+            <button class="set">
+                <img src="assets/stopwatch.svg" alt="stopwatch set button svg">
+            </button>
+        </div>
+    </main>    
+
+    <footer>
+        <button class="volume-on hide">
+            <img src="assets/volume-on.svg" alt="volume-on button">
+        </button>
+        <button class="volume-off ">
+            <img src="assets/volume-off.svg" alt="volume-off button">
+        </button>
+    </footer>
+
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
